@@ -1,14 +1,8 @@
 
- def palindrome()
-    puts "Enter a phrase"
-	phrase =gets.chomp
-	
-	if phrase == phrase.reverse!
-	puts "#{phrase} is a palindrome"
+ def palindrome?(string)
+    	if string == string.reverse
+	return true
 	else
-	puts "#{phrase} is not a palindrome"
+    return false
  end
-return phrase
 end
-puts palindrome() 
- 
